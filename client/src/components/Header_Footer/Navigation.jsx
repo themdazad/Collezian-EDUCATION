@@ -36,13 +36,13 @@ export function Navigation() {
             />
           </NavLink>
             <NavLink as={NavLink} to="/" className="font-semibold text-lg">
-              EDUX.cc
+              BEU Education
             </NavLink>
         </NavbarBrand>
 
         <NavbarMenuToggle
           className="sm:hidden"
-          onClick={() => {
+          onPress={() => {
             setIsMenuOpen(!isMenuOpen);
           }}
         />
@@ -55,7 +55,7 @@ export function Navigation() {
             as={NavLink}
             to="/"
             variant="light"
-            onClick={() => {
+            onPress={() => {
               setIsMenuOpen(!isMenuOpen);
             }}
           >
@@ -65,15 +65,28 @@ export function Navigation() {
         <NavbarItem>
           <Button
             as={NavLink}
-            to="/Events"
+            to="/"
             variant="light"
-            onClick={() => {
+            onPress={() => {
               setIsMenuOpen(!isMenuOpen);
             }}
           >
-            Events
+            Syllabus
           </Button>
         </NavbarItem>
+        <NavbarItem>
+          <Button
+            as={NavLink}
+            to="/"
+            variant="light"
+            onPress={() => {
+              setIsMenuOpen(!isMenuOpen);
+            }}
+          >
+            Result
+          </Button>
+        </NavbarItem>
+       
         <NavbarItem>
           <Dropdown>
             <DropdownTrigger>
@@ -87,7 +100,7 @@ export function Navigation() {
                 to="/Engineering"
                 key="Engineering"
                 startContent={<PiNotebookDuotone />}
-                onClick={() => {
+                onPress={() => {
                   setIsMenuOpen(!isMenuOpen);
                 }}
               >
@@ -115,7 +128,7 @@ export function Navigation() {
             as={NavLink}
             to="/login"
             variant="flat"
-            onClick={() => {
+            onPress={() => {
               setIsMenuOpen(!isMenuOpen);
             }}
           >
@@ -134,7 +147,7 @@ export function Navigation() {
             as={NavLink}
             to="/"
             variant="light"
-            onClick={() => {
+            onPress={() => {
               setIsMenuOpen(!isMenuOpen);
             }}
           >
@@ -145,15 +158,16 @@ export function Navigation() {
           <Button
             className="text-3xl font-bold"
             as={NavLink}
-            to="/Events"
+            to="/"
             variant="light"
-            onClick={() => {
+            onPress={() => {
               setIsMenuOpen(!isMenuOpen);
             }}
           >
-            Events
+            Syllabus
           </Button>
         </NavbarItem>
+        
         <NavbarItem>
           <Dropdown>
             <DropdownTrigger>
@@ -175,7 +189,7 @@ export function Navigation() {
                 to="/Engineering"
                 key="Engineering"
                 startContent={<PiNotebookDuotone />}
-                onClick={() => {
+                onPress={() => {
                   setIsMenuOpen(!isMenuOpen);
                 }}
               >
@@ -185,31 +199,6 @@ export function Navigation() {
           </Dropdown>
         </NavbarItem>
 
-        <NavbarItem>
-          <Dropdown>
-            <DropdownTrigger className="text-3xl font-bold">
-              <Button variant="light" endContent={<FiChevronDown />}>
-                Other
-              </Button>
-            </DropdownTrigger>
-            <DropdownMenu
-              className="text-2xl"
-              variant="faded"
-              aria-label="Static Actions"
-            >
-              <DropdownItem
-                as={NavLink} to='recursive_coder'
-                startContent={<PiLaptopDuotone />}
-                onClick={() => {
-                  setIsMenuOpen(!isMenuOpen);
-                }}
-              >
-                Recusive Coder
-              </DropdownItem>
-              
-            </DropdownMenu>
-          </Dropdown>
-        </NavbarItem>
        
       </NavbarMenu>
     </Navbar>

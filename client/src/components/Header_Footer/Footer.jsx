@@ -8,7 +8,8 @@ export function Footer() {
       <Divider />
       <footer className="flex flex-wrap justify-center max-sm:text-center md:justify-between items-centerm py-4  px-[5%] max-sm:space-y-6">
         <p className="text-[12px]">
-          © 2024 Collezian. All Rights Reserved.
+          © 2025 Collezian Cummunity,
+           All Rights Reserved.
           <br />
           Developed with <span>❤</span> By {" "}
           <a
