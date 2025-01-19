@@ -1,0 +1,15 @@
+Purpose of the pages Folder
+The pages folder typically contains all the components that represent the application's routes or views. Each file in this folder corresponds to a specific page or route in your application.
+
+Key Functions:
+Route Mapping:
+
+Each file within pages maps to a URL route (e.g., Home.jsx maps to /home).
+Subfolders represent nested routes (e.g., pages/admin/Dashboard.jsx maps to /admin/dashboard).
+Page-Level Logic:
+
+Pages serve as containers for route-specific logic.
+They import and use components, hooks, and utilities to display the appropriate UI.
+Integration Point:
+
+The pages folder acts as an integration layer, combining layouts and components to create a complete user-facing interface.

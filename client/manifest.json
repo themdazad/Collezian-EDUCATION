@@ -1,0 +1,10 @@
+{
+    "name": "Collezian Community",
+    "short_name": "Collezian",
+    "description": "The Collezian Organization provides software solutions to colleges and helps students improve their real-life project skills for free.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000"
+  }
+  
