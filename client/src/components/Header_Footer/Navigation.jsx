@@ -36,7 +36,7 @@ export function Navigation() {
             />
           </NavLink>
             <NavLink as={NavLink} to="/" className="font-semibold text-lg">
-              BEU Education
+              Collezian-Education
             </NavLink>
         </NavbarBrand>
 
@@ -62,28 +62,17 @@ export function Navigation() {
             Home
           </Button>
         </NavbarItem>
+        
         <NavbarItem>
           <Button
             as={NavLink}
-            to="/"
+            to="/ResultCheck"
             variant="light"
             onPress={() => {
               setIsMenuOpen(!isMenuOpen);
             }}
           >
-            Syllabus
-          </Button>
-        </NavbarItem>
-        <NavbarItem>
-          <Button
-            as={NavLink}
-            to="/"
-            variant="light"
-            onPress={() => {
-              setIsMenuOpen(!isMenuOpen);
-            }}
-          >
-            Result
+           Check Result
           </Button>
         </NavbarItem>
        
@@ -156,15 +145,14 @@ export function Navigation() {
         </NavbarItem>
         <NavbarItem>
           <Button
-            className="text-3xl font-bold"
             as={NavLink}
-            to="/"
+            to="/ResultCheck"
             variant="light"
             onPress={() => {
               setIsMenuOpen(!isMenuOpen);
             }}
           >
-            Syllabus
+            Check Result
           </Button>
         </NavbarItem>
         

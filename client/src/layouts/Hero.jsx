@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="min-h-[540px] px-[5%] grid place-content-center ">
+    <div className="min-h-[540px] max-w-[1440px] m-auto px-[5%] grid place-content-center ">
       <div className="text-center space-y-6">
         <h3 className=" text-6xl font-bold">
           Your engineering journey<br/> begins here...

@@ -11,7 +11,7 @@ import { Top_Message_Bar } from "./components/utils/Notifications/Top_Message_Ba
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <HeroUIProvider>
-      <main className="dark:dark dark:text-foreground dark:bg-[#040a14] bg-[#ececec] bg-[url('/bg_image/blur_bg.png')] bg-cover bg-no-repeat max-w-[1920px] m-auto">
+      <main className="dark:dark dark:text-foreground dark:bg-[#040a14] bg-[#ececec] bg-[url('/bg_image/blur_bg.png')] bg-cover bg-no-repeat m-auto">
       {/* New Announcement  */}
       <Top_Message_Bar/>
         <motion.div

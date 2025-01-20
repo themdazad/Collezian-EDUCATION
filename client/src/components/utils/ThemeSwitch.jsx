@@ -3,7 +3,7 @@ import { useState, useEffect } from "react"
 import { MdDarkMode, MdOutlineWbSunny } from "react-icons/md";
 
 const ThemeSwitch = () => {
-  const [theme, setTheme] = useState(localStorage.getItem('theme') || "dark")
+  const [theme, setTheme] = useState(localStorage.getItem('theme') || "light")
 
   useEffect(() => {
     localStorage.setItem('theme', theme);
@@ -20,7 +20,7 @@ const ThemeSwitch = () => {
       endContent={<MdDarkMode />}
 
       onChange={() => {
-        setTheme(theme === "dark" ? "light" : "dark")
+        setTheme(theme === "light" ? "dark" : "light")
       }}
     >
     </Switch>
