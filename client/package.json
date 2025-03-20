@@ -1,7 +1,7 @@
 {
-   "name": "collezian",
+   "name": "collezianEDUCATION",
    "private": true,
-   "version": "1.0.0",
+   "version": "1.0.1",
    "type": "module",
    "scripts": {
       "dev": "vite",
@@ -17,7 +17,6 @@
       "autoprefixer": "^10.4.19",
       "axios": "^1.7.2",
       "framer-motion": "^11.18.1",
-      "nodemon": "^3.1.0",
       "react": "^18.2.0",
       "react-blaze-slider": "^1.7.2",
       "react-dom": "^18.2.0",
